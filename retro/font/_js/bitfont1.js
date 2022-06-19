@@ -627,7 +627,7 @@ basic.defineLetter( 'q',`
       11  
 ` );
 
-basic.defineLetter( 'R',`
+basic.defineLetter( 'r',`
         
         
         

@@ -20,7 +20,11 @@ function setupPage() {
     }
     navbarEl.innerHTML = '<a href="/">home</a>'
     for( let i = 0; i < pathElements.length; i++ ) {
-      navbarEl.innerHTML += ' > ' + '<a href="/' + pathElements[ i ] + '">' + pathElements[ i ] + '</a>'
+      let href = ''
+      for( let j = 0; j < i; j++ ) {
+        href += '/' + pathElements[ j ]
+      }
+      navbarEl.innerHTML += ' > ' + '<a href="' + href + '/' + pathElements[ i ] + '">' + pathElements[ i ] + '</a>'
     }  
   }
 
