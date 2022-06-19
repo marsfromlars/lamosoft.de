@@ -1,0 +1,2 @@
+# lamosoft.de
+My website.
